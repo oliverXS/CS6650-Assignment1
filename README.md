@@ -52,8 +52,6 @@
 4. **Reporting**:
    - After both phases are complete, it calculates and logs the total time taken (`wallTime`), the total number of requests made, and the throughput (requests per second).
 
-------
-
 ## Client (Part 2) Design Description
 
 ### 1. Dependencies
@@ -110,8 +108,6 @@ The primary execution flow is as follows:
    - After the testing phases, the wall time, total requests, and throughput are computed and logged.
    - Latency statistics like mean, median, 99th percentile, min, and max latencies are then calculated and logged.
 
----
-
 ## Client (Part 1) Test Result
 
 ### Throughput Comparison
@@ -159,8 +155,6 @@ The outputs for each of the 6 tests are as follows:
 <img src="./screenshots/Go_10_30.png" alt="Go_10_30" width="800"/>
 
 ​										**Figure 2:** Test for Go. 
-
-------
 
 ## Client (Part 2) Test Result
 
